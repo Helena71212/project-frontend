@@ -23,8 +23,7 @@
    font-style: normal;
    font-weight: 400;
    font-size: 36px;
-   color: #fff;
-
+   color: #fff
 }
 
 .design__separator {
@@ -61,4 +60,106 @@ h5 {
    font-size: 18px;
    line-height: 24px;
    align-items: center;
+}
+
+.contact__title {
+   padding: 54px 0;
+   margin: 0;
+   text-align: center;
+   line-height: 42px;
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   color: #000;
+   text-transform: uppercase;
+
+}
+
+.text {
+   margin: 40px 0 89px;
+   line-height: 21px;
+   text-align: center;
+   font-family: "Raleway", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 18px;
+   color: #000;
+}
+
+.contact__separator {
+   width: 170px;
+   height: 0;
+   margin: 0 auto;
+   border: none;
+   border-top: 1px solid #EC7979;
+   background-color: #EC7979;
+}
+
+.form__name {
+   display: flex;
+   flex-direction: column;
+
+}
+
+input {
+
+   width: 571px;
+   padding: 0;
+   padding-bottom: 18px;
+   margin-bottom: 50px;
+   border: none;
+   border-bottom: 1px solid #BDBDBD;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   color: #BDBDBD;
+}
+
+
+.contact__form {
+   display: flex;
+   justify-content: space-between;
+}
+
+textarea {
+   width: 569px;
+   height: 210px;
+   border: none;
+   border-bottom: 1px solid #BDBDBD;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   color: #BDBDBD;
+}
+
+.btn {
+   width: 370px;
+   height: 58px;
+   padding: 0;
+   margin: 50px 400px;
+   border: none;
+   background-color: #EC7979;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 24px;
+   align-self: center;
+   color: #fff;
+}
+
+
+
+.footer__text {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: rgba(255, 255, 255, 0.5);
+
 }
