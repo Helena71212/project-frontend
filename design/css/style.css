@@ -10,8 +10,21 @@
 .design {
    width: 1510px;
    height: 442px;
-   background: url(../img/design.jpg) center no-repeat;
+   position: relative;
+   background:
+      url(../img/design.jpg) center no-repeat;
    background-size: cover;
+}
+
+.design::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   background: rgba(0, 0, 0, 0.5);
+   z-index: 1;
 }
 
 .design__title {
@@ -60,6 +73,11 @@ h5 {
    font-size: 18px;
    line-height: 24px;
    align-items: center;
+   cursor: pointer;
+}
+
+.btn:hover {
+   background: #AB4949;
 }
 
 .contact__title {
@@ -73,7 +91,6 @@ h5 {
    font-size: 36px;
    color: #000;
    text-transform: uppercase;
-
 }
 
 .text {
@@ -99,11 +116,9 @@ h5 {
 .form__name {
    display: flex;
    flex-direction: column;
-
 }
 
 input {
-
    width: 571px;
    padding: 0;
    padding-bottom: 18px;
@@ -117,7 +132,6 @@ input {
    line-height: 19px;
    color: #BDBDBD;
 }
-
 
 .contact__form {
    display: flex;
@@ -162,4 +176,35 @@ textarea {
    line-height: 21px;
    color: rgba(255, 255, 255, 0.5);
 
+}
+
+.footer {
+   width: 1510px;
+   background: #000;
+}
+
+.footer__container {
+   margin: auto;
+   width: 1170px;
+   padding: 35px 15px 27px;
+}
+
+.footer__icons {
+
+   margin-left: 320px;
+   margin-bottom: 35px;
+}
+
+img {
+   padding-right: 42px;
+}
+
+.footer__text {
+   margin: 0;
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: rgba(255, 255, 255, 0.5);
 }
