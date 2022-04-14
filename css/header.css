@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
-html,
+
 body,
 div,
 span,
@@ -34,7 +34,7 @@ nav {
    box-sizing: border-box;
 }
 
-body {
+.axit {
    height: 1026px;
    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img/image.jpg") center no-repeat;
    background: -o-linear-gradient(rgba(0, 0, 0, 0.5)), url("../img/image.jpg") center no-repeat;
@@ -44,7 +44,6 @@ body {
 
 .header {
    margin: 0 auto;
-
 }
 
 .header::before {
@@ -57,8 +56,6 @@ body {
    z-index: 1;
    background: #000;
 }
-
-
 
 .header__container {
    width: 1170px;
@@ -135,7 +132,7 @@ nav {
    color: #fff;
 }
 
-hr {
+.banner__separator {
    width: 170px;
    left: 0;
    height: 0;
@@ -145,9 +142,10 @@ hr {
    background-color: #fff;
 }
 
-h5 {
+.banner__txt {
    width: 270px;
    margin: 0 0 42px;
+   text-align: left;
    font-family: "Raleway", sans-serif;
    font-size: 18px;
    font-weight: normal;
@@ -181,6 +179,7 @@ h5 {
 
 .content__item {
    position: relative;
+   width: 670px;
 }
 
 .content__item2 {
@@ -190,12 +189,13 @@ h5 {
    margin-left: 30px;
    display: flex;
    flex-direction: column;
+
 }
 
-h4 {
+.banner__title {
    max-width: 470px;
    height: 90px;
-   padding-bottom: 45px;
+   padding: 28px 0;
    border-radius: 10px 10px 0 0;
    text-align: center;
    line-height: 90px;
@@ -207,12 +207,8 @@ h4 {
    text-transform: uppercase;
 }
 
-.color {
+span {
    color: #EC7979;
-}
-
-input {
-   width: 370px;
 }
 
 .form__fields {
@@ -231,9 +227,10 @@ input {
 
 .form__item {
    height: 35px;
+   width: 370px;
 }
 
-.button {
+.button_start {
    width: 470px;
    height: 60px;
    padding: 0;
@@ -244,15 +241,15 @@ input {
    font-weight: 600;
    font-size: 18px;
    line-height: 25px;
-   color: #fff;
+   color: #FFFFFF;
    align-self: center;
 }
 
-.button:hover {
+.button_start:hover {
    background: #AB4949;
 }
 
-.social {
+.social-media {
    height: 140px;
    background: #F8EFEF;
 }
@@ -288,6 +285,7 @@ input {
    width: 470px;
    height: 42px;
    margin: 18px 0;
+   text-align: left;
    font-family: 'Raleway', sans-serif;
    font-style: normal;
    font-weight: 400;

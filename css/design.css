@@ -1,5 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+hr,
+ul,
+li,
+fieldset,
+form,
+label,
+input,
+menu,
+nav {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
 
 .container {
    margin: auto;
@@ -59,7 +85,7 @@ h5 {
    color: #fff;
 }
 
-.button {
+.design__btn {
    width: 370px;
    height: 58px;
    padding: 0;
@@ -76,8 +102,12 @@ h5 {
    cursor: pointer;
 }
 
-.btn:hover {
-   background: #AB4949;
+.design__btn:hover {
+   border: 2px solid #AB4949;
+}
+
+.contact {
+   background: #fff;
 }
 
 .contact__title {
@@ -151,7 +181,7 @@ textarea {
    color: #BDBDBD;
 }
 
-.btn {
+.btn-send {
    width: 370px;
    height: 58px;
    padding: 0;
@@ -164,8 +194,13 @@ textarea {
    line-height: 24px;
    align-self: center;
    color: #fff;
+   cursor: pointer;
 }
 
+.btn-send:hover {
+   background: #d13f3f;
+   color: #fff;
+}
 
 
 .footer__text {
@@ -190,14 +225,14 @@ textarea {
 }
 
 .footer__icons {
-
+   width: 545px;
+   display: flex;
+   justify-content: space-between;
    margin-left: 320px;
    margin-bottom: 35px;
 }
 
-img {
-   padding-right: 42px;
-}
+
 
 .footer__text {
    margin: 0;

@@ -1,11 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ul,
+li,
+fieldset,
+form,
+label,
+input,
+menu,
+nav {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
 
+.customers {
+   background: #fff;
+}
 
 .customers__container {
    margin: auto;
    width: 1170px;
    padding: 50px 15px 64px;
+
+
 }
 
 .customers__title {
@@ -29,7 +59,7 @@
    background-color: #EC7979;
 }
 
-h5 {
+.customers__text {
    margin: 40px 0 83px;
    line-height: 21px;
    text-align: center;

@@ -1,0 +1,137 @@
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ul,
+li,
+fieldset,
+form,
+label,
+input,
+menu,
+nav {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+
+}
+
+.block__tabs {
+   height: 639;
+   padding-top: 99px;
+   background: #fff;
+}
+
+.block__tabs-wrapper {
+   width: 1170px;
+   /*блок по центру*/
+   margin: 0 auto;
+
+}
+
+.block__tabs-menu {
+   display: flex;
+   align-items: center;
+}
+
+.button-active {
+   position: relative;
+   padding: 10px 80px;
+   border: 1px solid #C6CBCD;
+   border-radius: 5px 5px 0 0;
+   line-height: 19px;
+   font-weight: 400;
+   font-family: Open Sans;
+   font-size: 14px;
+   color: #333;
+   background-color: #fff;
+}
+
+.button-active::after {
+   position: absolute;
+   content: "";
+   left: 0;
+   right: 0;
+   padding: 3px;
+   margin-top: 28px;
+   background-color: white;
+}
+
+
+.button {
+   margin-right: 60px;
+   padding-left: 70px;
+   border: none;
+   line-height: 19px;
+   font-family: Open Sans;
+   font-size: 14px;
+   font-weight: 400;
+   color: #333;
+   background-color: #fff;
+}
+
+.tabs__content {
+   display: flex;
+   padding-left: 100px;
+   border: 1px solid #C6CBCD;
+}
+
+.content__title {
+   width: 570px;
+   height: 124px;
+   padding: 41px 0 41px;
+   margin-bottom: 27px;
+   line-height: 40px;
+   font-family: Open Sans;
+   font-size: 30px;
+   color: #000;
+}
+
+.content__text {
+   display: block;
+   margin-right: 30px;
+   margin-bottom: 27px;
+   line-height: 21px;
+   font-size: 18px;
+   font-family: Raleway;
+}
+
+.block__content-buttom {
+   width: 270px;
+   height: 58px;
+   margin-top: 27px 0 54px;
+   padding: 0;
+   background-color: #EC7979;
+   border: 1px solid #EC7979;
+}
+
+.block__content-buttom:hover {
+   background: #AB4949;
+}
+
+.download {
+   display: block;
+   font-weight: 600;
+   line-height: 58px;
+   text-decoration: none;
+   text-transform: capitalize;
+   text-align: center;
+   font-size: 18px;
+   font-family: Open Sans;
+   color: #fff;
+}
+
+.block__content-image {
+   margin-left: auto;
+}
