@@ -29,12 +29,11 @@ nav {
 
 .container {
    margin: auto;
-   width: 1170px;
+   width: 1200px;
    padding: 50px 15px;
 }
 
 .design {
-   width: 1510px;
    height: 442px;
    position: relative;
    background:
@@ -107,6 +106,8 @@ h5 {
 }
 
 .contact {
+   min-width: 1200px;
+   padding: 0 15px;
    background: #fff;
 }
 
@@ -131,7 +132,7 @@ h5 {
    font-weight: 400;
    font-style: normal;
    font-size: 18px;
-   color: #000;
+   color: #86878B;
 }
 
 .contact__separator {
@@ -169,8 +170,8 @@ input {
 }
 
 textarea {
-   width: 569px;
-   height: 210px;
+   min-width: 569px;
+   min-height: 210px;
    border: none;
    border-bottom: 1px solid #BDBDBD;
    font-family: 'Open Sans', sans-serif;
@@ -214,7 +215,6 @@ textarea {
 }
 
 .footer {
-   width: 1510px;
    background: #000;
 }
 

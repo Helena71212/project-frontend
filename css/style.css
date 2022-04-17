@@ -4,3 +4,15 @@
 @import url(../css/pricing.css);
 @import url(../css/customers.css);
 @import url(../css/design.css);
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+
+
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 1024px) {}

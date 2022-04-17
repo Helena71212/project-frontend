@@ -26,34 +26,47 @@ nav {
    vertical-align: baseline;
 }
 
+@media (max-width: 1024px) {
+   .page__about-wrapper {
+      padding: 0 8px;
+      max-width: 992px;
+   }
+
+   .page__about-title {
+      padding: 50px 0px;
+      line-height: 28px;
+      font-size: 24px;
+   }
+}
+
 .page__about {
+   padding-top: 50px;
    background: #fff;
 }
 
 .page__about-wrapper {
-   padding: 50px 15px 58px 15px;
-   width: 1170px;
+   padding: 0 15px;
+   max-width: 1200px;
    margin: 0 auto;
-
 }
 
 .page__about-title {
+   padding: 50px 0px;
+   line-height: 42px;
+   text-align: center;
    font-size: 36px;
    font-weight: 400;
    font-style: normal;
-   padding: 50px 0px;
-   margin-top: 50px;
-   line-height: 42px;
-   text-align: center;
    color: black;
 }
 
 .page__about-separator {
    width: 170px;
-   height: 0px;
-   margin-left: 501px;
+   height: 0;
+   margin: 0 auto;
    border: none;
    border-top: 1px solid #EC7979;
+   background-color: #EC7979;
 }
 
 .about__text {
@@ -68,8 +81,10 @@ nav {
 }
 
 .page__about-content {
+
+   width: 100%;
    display: flex;
-   margin: 0px -15px;
+   flex-wrap: wrap;
 }
 
 
@@ -82,8 +97,6 @@ nav {
    color: #000000;
    align-items: center;
    text-align: center;
-
-
 }
 
 .page__content-image {
@@ -94,14 +107,14 @@ nav {
 }
 
 .page__content-text {
-   font-family: Raleway;
-   font-weight: normal;
-   font-size: 18px;
-   line-height: 21px;
    width: 360px;
    margin-right: 30px;
    align-items: center;
    text-align: center;
+   font-family: Raleway;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 21px;
    color: #000000;
 }
 

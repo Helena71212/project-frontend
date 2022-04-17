@@ -68,6 +68,8 @@ nav {
    z-index: 2;
    margin-left: -45px;
    display: flex;
+   flex-flow: nowrap;
+   flex-direction: row;
    justify-content: space-between;
 }
 
@@ -77,6 +79,7 @@ img.logo {
 
 nav {
    display: flex;
+   flex-wrap: wrap;
    align-items: center;
    font-size: 14px;
    font-family: "Open Sans", sans-serif;
@@ -114,6 +117,7 @@ nav {
 .banner__content {
    margin-top: 208px;
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
 }
 
@@ -179,7 +183,7 @@ nav {
 
 .content__item {
    position: relative;
-   width: 670px;
+   max-width: 670px;
 }
 
 .content__item2 {
@@ -222,7 +226,6 @@ span {
    padding: 0;
    margin: 0 50px;
    margin-bottom: 33px;
-   border-bottom: 1px solid #BDBDBD;
 }
 
 .form__item {
@@ -261,6 +264,7 @@ span {
 
 .social__content {
    display: flex;
+
 }
 
 .social__item {

@@ -32,10 +32,8 @@ nav {
 
 .customers__container {
    margin: auto;
-   width: 1170px;
+   max-width: 1170px;
    padding: 50px 15px 64px;
-
-
 }
 
 .customers__title {
@@ -72,6 +70,7 @@ nav {
 
 .customers__content {
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
 }
 
