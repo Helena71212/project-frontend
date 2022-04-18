@@ -105,7 +105,6 @@ nav {
 
 @media (max-width: 1024px) {
    .page__about-wrapper {
-      background-color: antiquewhite;
       padding: 0 16px;
       max-width: 1024px;
    }
@@ -148,7 +147,6 @@ nav {
 
 @media (max-width: 768px) {
    .page__about-wrapper {
-      background-color: aqua;
       padding: 0 16px;
       max-width: 320px;
    }

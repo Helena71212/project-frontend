@@ -6,10 +6,7 @@
 @import url(../css/design.css);
 
 html,
-body {
-   height: 100%;
-   width: 100%;
-}
+body {}
 
 @media (max-width: 1024px) {}
 

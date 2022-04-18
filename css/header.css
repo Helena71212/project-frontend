@@ -121,7 +121,7 @@ nav {
 .banner__content {
    margin-top: 208px;
    display: flex;
-   flex-wrap: wrap;
+
    justify-content: space-between;
 }
 
@@ -188,6 +188,7 @@ nav {
 .content__item {
    position: relative;
    max-width: 670px;
+
 }
 
 .content__item2 {
@@ -197,7 +198,6 @@ nav {
    margin-left: 30px;
    display: flex;
    flex-direction: column;
-
 }
 
 .banner__title {
@@ -254,6 +254,16 @@ span {
 
 .button_start:hover {
    background: #AB4949;
+}
+
+@media (max-width: 768px) {
+   .banner__content {
+      max-width: 320px;
+   }
+
+   .content__item2 {
+      flex-wrap: wrap;
+   }
 }
 
 .social-media {
