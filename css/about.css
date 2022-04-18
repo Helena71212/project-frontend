@@ -26,19 +26,6 @@ nav {
    vertical-align: baseline;
 }
 
-@media (max-width: 1024px) {
-   .page__about-wrapper {
-      padding: 0 8px;
-      max-width: 992px;
-   }
-
-   .page__about-title {
-      padding: 46px 0px;
-      line-height: 28px;
-      font-size: 24px;
-   }
-}
-
 .page__about {
    padding-top: 50px;
    background: #fff;
@@ -81,12 +68,10 @@ nav {
 }
 
 .page__about-content {
-
    width: 100%;
    display: flex;
    flex-wrap: wrap;
 }
-
 
 .page__content-title {
    font-family: Open Sans;
@@ -118,7 +103,87 @@ nav {
    color: #000000;
 }
 
-body {
-   font-family: Raleway;
-   background-color: #E5E5E5;
+@media (max-width: 1024px) {
+   .page__about-wrapper {
+      background-color: antiquewhite;
+      padding: 0 16px;
+      max-width: 1024px;
+   }
+
+   .page__about-title {
+      padding: 46px 0px;
+      line-height: 28px;
+      font-size: 24px;
+   }
+
+   .page__about-separator {
+      width: 142px;
+   }
+
+   .about__text {
+      margin-bottom: 65.72px;
+      font-size: 14px;
+      line-height: 16px;
+   }
+
+   .page__content-title {
+      font-size: 18px;
+      line-height: 24px;
+   }
+
+   .page__content-image {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 34px;
+   }
+
+   .page__content-text {
+      max-width: 317px;
+      margin-right: 5px;
+      overflow: hidden;
+      font-size: 14px;
+      line-height: 16px;
+   }
+}
+
+@media (max-width: 768px) {
+   .page__about-wrapper {
+      background-color: aqua;
+      padding: 0 16px;
+      max-width: 320px;
+   }
+
+   .page__about-title {
+      padding: 26px 0px;
+      line-height: 28px;
+      font-size: 24px;
+   }
+
+   .page__about-separator {
+      width: 134px;
+   }
+
+   .about__text {
+      margin-bottom: 83px;
+      font-size: 13px;
+      line-height: 15px;
+   }
+
+   .page__content-image {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 34px;
+   }
+
+   .page__content-title {
+      font-size: 18px;
+      line-height: 24px;
+   }
+
+   .page__content-text {
+      max-width: 288px;
+      overflow: hidden;
+      font-size: 14px;
+      line-height: 16px;
+   }
 }
