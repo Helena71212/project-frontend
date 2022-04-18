@@ -33,7 +33,7 @@ nav {
    }
 
    .page__about-title {
-      padding: 50px 0px;
+      padding: 46px 0px;
       line-height: 28px;
       font-size: 24px;
    }
@@ -121,9 +121,4 @@ nav {
 body {
    font-family: Raleway;
    background-color: #E5E5E5;
-}
-
-wrapper {
-   min-height: 100%;
-   overflow: hidden;
 }

@@ -58,9 +58,9 @@ nav {
 }
 
 .header__container {
-   width: 1170px;
-   margin: 0 auto;
+   max-width: 1200px;
    padding: 0 15px;
+   margin: 0 auto;
 }
 
 .header__main {
@@ -89,10 +89,13 @@ nav {
 }
 
 .nav__link {
+   width: 113px;
+   height: 75px;
    display: inline-block;
-   vertical-align: top;
-   margin: 0 20px;
+   vertical-align: center;
    color: #fff;
+   line-height: 75px;
+   text-align: center;
    text-decoration: none;
 }
 
@@ -109,7 +112,8 @@ nav {
 }
 
 .banner__container {
-   max-width: 1170px;
+   max-width: 1200px;
+   padding: 0 15px;
    margin: auto;
    display: flex;
 }
@@ -258,17 +262,18 @@ span {
 }
 
 .social__container {
-   max-width: 1170px;
+   max-width: 1200px;
    margin: 0 auto;
+   padding: 0 15px;
 }
 
 .social__content {
    display: flex;
-
+   flex-wrap: wrap;
 }
 
 .social__item {
-   margin-right: 50px;
+   margin-right: 49px;
 }
 
 .social__title {
@@ -299,10 +304,9 @@ span {
 }
 
 .social__icons {
-   min-width: 662px;
+   width: 55%;
    height: 70px;
    margin-top: 37px;
-   padding-right: 13px;
    display: flex;
    justify-content: space-between;
    align-items: center;
