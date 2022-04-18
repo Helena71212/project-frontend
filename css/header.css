@@ -128,7 +128,6 @@ nav {
 .banner__content {
    margin-top: 208px;
    display: flex;
-
    justify-content: space-between;
 }
 
@@ -370,5 +369,13 @@ span {
       width: 398px;
       font-size: 15px;
       line-height: 20px;
+   }
+}
+
+@media (max-width: 768px) {
+   .banner__content {
+      margin-top: 208px;
+      display: flex;
+      flex-direction: column;
    }
 }
