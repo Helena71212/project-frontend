@@ -83,13 +83,17 @@ nav {
 }
 
 .tabs__content {
+
    padding-left: 100px;
    display: flex;
    border: 1px solid #C6CBCD;
 }
 
+.tabs__item {
+   max-width: 570px;
+}
+
 .content__title {
-   width: 570px;
    height: 124px;
    padding: 41px 0 41px;
    margin-bottom: 27px;
@@ -132,8 +136,12 @@ nav {
    color: #fff;
 }
 
-.block__content-image {
+.block__content-item {
+   min-width: 470px;
+}
 
+.block__content-image {
+   margin-left: 30px;
    height: 100%;
    object-fit: cover;
    margin-left: auto;

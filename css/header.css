@@ -43,7 +43,11 @@ nav {
 }
 
 .header {
+   width: 100%;
+   position: fixed;
+   top: 0;
    margin: 0 auto;
+
 }
 
 .header::before {
@@ -65,7 +69,7 @@ nav {
 
 .header__main {
    position: relative;
-   z-index: 2;
+   z-index: 1;
    margin-left: -45px;
    display: flex;
    flex-flow: nowrap;
@@ -107,13 +111,6 @@ nav {
    background: #AB4949;
 }
 
-@media (max-width: 1024px) {
-   .header__main {
-      margin: 0 auto
-   }
-}
-
-
 .banner {
    height: 951px;
 }
@@ -131,9 +128,7 @@ nav {
    justify-content: space-between;
 }
 
-.item__logo {
-   position: relative;
-}
+
 
 .item__title {
    max-width: 670px;
@@ -192,13 +187,12 @@ nav {
 }
 
 .content__item {
-   position: relative;
    max-width: 670px;
 
 }
 
 .content__item2 {
-   position: relative;
+
    max-width: 470px;
    height: 450px;
    margin-left: 30px;
@@ -263,7 +257,6 @@ span {
 }
 
 .social-media {
-   height: 140px;
    background: #F8EFEF;
 }
 
@@ -331,6 +324,10 @@ span {
       line-height: 42px;
    }
 
+   .banner__content {
+      margin-top: 137.15px;
+   }
+
    .banner__separator {
       width: 115.28px;
       left: 0;
@@ -351,9 +348,8 @@ span {
       padding: 12px 30px;
       font-size: 16px;
       cursor: pointer;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 24px;
-      color: #fff;
    }
 
    .content__item2 {
@@ -373,9 +369,65 @@ span {
 }
 
 @media (max-width: 768px) {
+   .axit {
+      width: 320px;
+      height: 1005px;
+   }
+
    .banner__content {
       margin-top: 208px;
       display: flex;
       flex-direction: column;
+   }
+
+
+   .item__logo {
+      display: none;
+   }
+
+   .item__title {
+      max-width: 288px;
+      margin-top: 10px;
+      font-size: 36px;
+      line-height: 42px;
+   }
+
+
+
+   .banner__separator {
+      width: 134px;
+      left: 0;
+      height: 0;
+      margin: 43px 0 42px;
+   }
+
+   .banner__txt {
+      width: 288px;
+      margin: 0 0 42px;
+      font-size: 14px;
+      line-height: 16px;
+   }
+
+   .btn {
+      width: 288px;
+      font-size: 16px;
+
+   }
+
+
+
+   .content__item2 {
+      max-width: 288px;
+      margin-left: 16px;
+   }
+
+   .form__item {
+      width: 240px;
+   }
+
+   .button_start {
+      width: 288px;
+      font-size: 15px;
+      line-height: 20px;
    }
 }

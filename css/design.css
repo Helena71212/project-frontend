@@ -110,8 +110,9 @@ h5 {
 }
 
 .contact {
-   min-width: 1200px;
+   max-width: 1200px;
    padding: 0 15px;
+   margin: 0 auto;
    background: #fff;
 }
 
@@ -189,7 +190,7 @@ textarea {
 
 
 .btn-send {
-   width: 370px;
+   width: 30.8%;
    height: 58px;
    padding: 0;
    margin: 50px 400px;
@@ -226,19 +227,17 @@ textarea {
 
 .footer__container {
    margin: auto;
-   width: 1170px;
+   max-width: 1200px;
    padding: 35px 15px 27px;
 }
 
 .footer__icons {
-   width: 545px;
+   max-width: 545px;
    display: flex;
    justify-content: space-between;
    margin-left: 320px;
    margin-bottom: 35px;
 }
-
-
 
 .footer__text {
    margin: 0;
