@@ -104,9 +104,15 @@ nav {
 }
 
 @media (max-width: 1024px) {
+
    .page__about-wrapper {
-      padding: 0 16px;
       max-width: 1024px;
+      padding: 0 16px;
+      margin: 0 auto;
+   }
+
+   .page__about-content {
+      flex-wrap: nowrap;
    }
 
    .page__about-title {
@@ -148,7 +154,11 @@ nav {
 @media (max-width: 768px) {
    .page__about-wrapper {
       padding: 0 16px;
-      max-width: 320px;
+      max-width: 768px;
+   }
+
+   .page__about-content {
+      flex-wrap: wrap;
    }
 
    .page__about-title {

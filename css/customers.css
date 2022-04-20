@@ -123,3 +123,63 @@ nav {
    text-align: left;
    color: #000;
 }
+
+@media (max-width: 1024px) {
+   .customers__container {
+      max-width: 1024px;
+      padding: 50px 16px 57px;
+   }
+
+   .customers__content {
+      flex-wrap: nowrap;
+   }
+
+   .customers__title {
+      line-height: 28px;
+      font-size: 24px;
+   }
+
+   .customers__text {
+      line-height: 16px;
+      font-size: 14px;
+   }
+
+   .customers__separator {
+      width: 142px;
+   }
+
+   #rectangle {
+      width: 317px;
+   }
+
+   .customers__text {
+      font-size: 14px;
+      line-height: 16px;
+      padding-top: 50px;
+   }
+
+   .item__row-name {
+      width: 230px;
+      font-size: 18px;
+      line-height: 24px;
+   }
+
+   .page__content-description {
+      font-size: 14px;
+      line-height: 16px;
+   }
+}
+
+@media (max-width: 768px) {
+   .customers__container {
+      min-width: 768px;
+   }
+
+   .customers__content {
+      flex-wrap: wrap;
+   }
+
+   .page__content-description {
+      margin-bottom: 30px;
+   }
+}

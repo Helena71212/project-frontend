@@ -79,14 +79,13 @@ nav {
 
 .page__item {
    width: 370px;
-   margin-bottom: 50px;
+   display: block;
    text-align: center;
 }
 
-
-
 .page__subtitle {
    padding: 12px 0;
+   display: block;
    border: 2px solid #F5F5F5;
    font-family: Open Sans;
    font-style: normal;
@@ -99,6 +98,7 @@ nav {
 
 .page__price {
    padding: 27px 0;
+   display: block;
    border: 2px solid #F5F5F5;
    font-family: Raleway;
    font-style: normal;
@@ -112,6 +112,7 @@ nav {
 
 .page__label {
    padding: 13px 0;
+   display: block;
    border: 2px solid #F5F5F5;
    font-family: Raleway;
    font-style: normal;
@@ -125,6 +126,7 @@ nav {
 
 .page__info {
    padding: 13px 0;
+   display: block;
    border: 2px solid #F5F5F5;
    background: #FFFFFF;
    color: #86878B;
@@ -160,4 +162,69 @@ nav {
 .page__pricing-column:nth-child(3):hover {
    transform: translate(2px, -20px);
    box-shadow: 0 4px 10px 0 #333333;
+}
+
+@media (max-width: 1024px) {
+   .page__pricing-container {
+      max-width: 1024px;
+      padding: 50px 16px;
+   }
+
+   .page__row {
+      flex-wrap: nowrap;
+   }
+
+   .page__item {
+      width: 317px;
+   }
+
+   .page__pricing-title {
+      padding: 44px 0;
+      line-height: 28px;
+      font-size: 24px;
+   }
+
+   .page__pricing-separator {
+      width: 143px;
+   }
+
+   .pricing-text {
+      margin-bottom: 50px;
+      line-height: 16px;
+      font-size: 14px;
+   }
+
+   .page__pricing-column {
+      height: 452px;
+   }
+
+   .page__subtitle {
+      height: 53px;
+   }
+
+   .page__price {
+      height: 88px;
+   }
+
+   .page__info {
+      height: 44px;
+   }
+
+   .page__label {
+      height: 44px;
+   }
+}
+
+@media (max-width: 768px) {
+   .page__pricing {
+      max-width: 768px;
+   }
+
+   .page__row {
+      flex-wrap: wrap;
+   }
+
+   .page__pricing-column:nth-child(3) {
+      margin-top: 30px;
+   }
 }

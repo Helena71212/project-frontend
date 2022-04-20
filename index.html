@@ -18,12 +18,18 @@
                   <img class="logo" src="img/logo.svg" alt="logo1">
                   <img class="logo" src="img/logo1.svg" alt="logo2">
                </div>
+               <div class="burger-menu">
+                  <input id="menu__toggle" type="checkbox" />
+                  <label class="menu__btn" for="menu__toggle">
+                     <span></span>
+                  </label>
+               </div>
                <nav class="header__menu">
-                  <a class="nav__link" href="#">Features</a>
-                  <a class="nav__link" href="#">About</a>
-                  <a class="nav__link" href="#">Pricing</a>
-                  <a class="nav__link" href="#">Reviews</a>
-                  <a class="nav__link" href="#">Contact</a>
+                  <a class="nav__link" href="#tabs">Features</a>
+                  <a class="nav__link" href="#about">About</a>
+                  <a class="nav__link" href="#pricing">Pricing</a>
+                  <a class="nav__link" href="#customers">Reviews</a>
+                  <a class="nav__link" href="#contact">Contact</a>
                </nav>
             </div>
          </div>
@@ -82,7 +88,7 @@
          </div>
       </div>
    </section>
-   <section class="block__tabs">
+   <section class="block__tabs" id="tabs">
       <div class="block__tabs-wrapper">
          <div class="block__tabs-menu">
             <button class="button-active">TAB 1</button>
@@ -110,7 +116,7 @@
          </div>
       </div>
    </section>
-   <section class="page__about">
+   <section class="page__about" id="about">
       <div class="page__about-wrapper">
          <h2 class="page__about-title">WHY THIS IS AWESOME</h2>
          <hr class="page__about-separator">
@@ -140,7 +146,7 @@
          </div>
       </div>
    </section>
-   <section class="page__pricing">
+   <section class="page__pricing" id="pricing">
       <div class="page__pricing-container">
          <h2 class="page__pricing-title">PRICING OPTIONS</h2>
          <hr class="page__pricing-separator">
@@ -188,7 +194,7 @@
          </div>
       </div>
    </section>
-   <section class="customers">
+   <section class="customers" id="customers">
       <div class="customers__container">
          <h2 class="customers__title">what our customers are saying</h2>
          <hr class="customers__separator">
@@ -254,7 +260,7 @@
          </div>
       </div>
    </section>
-   <section class="contact">
+   <section class="contact" id="contact">
       <div class="container">
          <div class="contact__main">
             <h2 class="contact__title">contact us</h2>
