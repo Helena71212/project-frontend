@@ -99,10 +99,13 @@ h5 {
 }
 
 .contact {
-   max-width: 1200px;
-   padding: 0 15px;
    margin: 0 auto;
    background: #fff;
+}
+
+.container {
+   max-width: 1200px;
+   padding: 0 15px;
 }
 
 .contact__title {
