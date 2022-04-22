@@ -31,6 +31,7 @@ nav {
    margin: auto;
    max-width: 1200px;
    padding: 50px 15px;
+   margin-bottom: 50px;
 }
 
 .design {
@@ -99,23 +100,20 @@ h5 {
 }
 
 .contact {
-   margin: 0 auto;
    background: #fff;
 }
 
 .container {
-   max-width: 1200px;
+   max-width: 1170px;
    padding: 0 15px;
+   margin: 0 auto;
 }
 
 .contact__title {
    padding: 54px 0;
-   margin: 0;
    text-align: center;
    line-height: 42px;
    font-family: "Raleway", sans-serif;
-   font-style: normal;
-   font-weight: 400;
    font-size: 36px;
    color: #000;
    text-transform: uppercase;
@@ -126,8 +124,6 @@ h5 {
    line-height: 21px;
    text-align: center;
    font-family: "Raleway", sans-serif;
-   font-weight: 400;
-   font-style: normal;
    font-size: 18px;
    color: #86878B;
 }
@@ -139,6 +135,13 @@ h5 {
    border: none;
    border-top: 1px solid #EC7979;
    background-color: #EC7979;
+}
+
+.contact__form {
+   width: calc(100%/2);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
 }
 
 .form__name {
@@ -154,27 +157,17 @@ input {
    border: none;
    border-bottom: 1px solid #BDBDBD;
    font-family: 'Open Sans', sans-serif;
-   font-style: normal;
-   font-weight: 400;
    font-size: 14px;
    line-height: 19px;
    color: #BDBDBD;
 }
 
-.contact__form {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-}
-
 textarea {
    max-width: 569px;
-   height: 210px;
+   height: 205px;
    border: none;
    border-bottom: 1px solid #BDBDBD;
    font-family: 'Open Sans', sans-serif;
-   font-style: normal;
-   font-weight: 400;
    font-size: 14px;
    line-height: 19px;
    color: #BDBDBD;
@@ -182,10 +175,11 @@ textarea {
 
 
 .btn-send {
-   width: 30.8%;
+   width: 370px;
    height: 58px;
-   padding: 0;
-   margin: 50px 400px;
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 60px;
    border: none;
    background-color: #EC7979;
    font-family: 'Open Sans', sans-serif;
@@ -281,46 +275,46 @@ textarea {
       width: 144px;
    }
 
-   .btn-send {
-      margin: 50px 320px;
-
+   input {
+      width: 468px;
+      padding-bottom: 16px;
    }
 
-   .footer__container {
-      max-width: 1024px;
-      padding: 30 16px;
+   textarea {
+      width: 400px;
+
+      .footer__icons {
+         margin-left: 220px;
+      }
+
+      .footer__container {
+         max-width: 1024px;
+         padding: 30 16px;
+      }
    }
 
-   .footer__icons {
-      margin-left: 220px;
-   }
-}
+   @media (max-width: 768px) {
+      .contact {
+         max-width: 736px;
+         padding: 0 16px;
+      }
 
-@media (max-width: 768px) {
-   .contact {
-      min-width: 768px;
-   }
+      .contact__form {
+         display: block;
+         margin-left: 150px;
+      }
 
-   .form__name {
-      margin-left: 250px;
-      margin-bottom: 50px;
-   }
 
-   .form__comment {
-      margin-left: 220px;
-      margin-bottom: 50px;
-   }
+      .form__comment {
+         margin: 50px auto;
+      }
 
-   .btn-send {
-      margin: 0 250px;
-   }
+      .footer__container {
+         max-width: 768px;
+         padding: 30 16px;
+      }
 
-   .footer__container {
-      max-width: 768px;
-      padding: 30 16px;
+      .footer__icons {
+         margin-left: 100px;
+      }
    }
-
-   .footer__icons {
-      margin-left: 100px;
-   }
-}

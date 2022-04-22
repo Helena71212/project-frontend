@@ -170,10 +170,6 @@ nav {
       padding: 50px 16px;
    }
 
-   .page__row {
-      flex-wrap: nowrap;
-   }
-
    .page__item {
       width: 317px;
    }

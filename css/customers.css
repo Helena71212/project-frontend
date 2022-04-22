@@ -69,6 +69,7 @@ nav {
 }
 
 .customers__content {
+   min-width: 0;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -130,9 +131,6 @@ nav {
       padding: 50px 16px 57px;
    }
 
-   .customers__content {
-      flex-wrap: nowrap;
-   }
 
    .customers__title {
       line-height: 28px;
@@ -172,7 +170,8 @@ nav {
 
 @media (max-width: 768px) {
    .customers__container {
-      min-width: 768px;
+      max-width: 736px;
+      padding: 0 16px;
    }
 
    .customers__content {
