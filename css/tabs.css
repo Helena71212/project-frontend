@@ -113,7 +113,7 @@ nav {
 }
 
 .block__content-buttom {
-   width: 270px;
+   max-width: 270px;
    height: 58px;
    margin-bottom: 54px;
    background-color: #EC7979;
@@ -175,5 +175,44 @@ nav {
 
    .download {
       width: 231px;
+   }
+}
+
+@media (max-width: 525px) {
+   .block__content-item {
+      display: none;
+   }
+
+   .button-active {
+      padding: 10px 40px;
+   }
+
+   .button {
+      margin-right: 25px;
+      padding-left: 25px;
+   }
+}
+
+@media (max-width: 320px) {
+   .block__content-item {
+      display: none;
+   }
+
+   .block__tabs-wrapper {
+      max-width: 320px;
+      padding: 0 16px;
+   }
+
+   .button-active {
+      padding: 10px 50px;
+   }
+
+   .button {
+      margin-right: 25px;
+      padding-left: 30px;
+   }
+
+   .block__content-buttom {
+      max-width: 240px;
    }
 }

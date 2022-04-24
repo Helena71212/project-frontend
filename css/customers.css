@@ -182,3 +182,13 @@ nav {
       margin-bottom: 30px;
    }
 }
+
+@media (max-width: 320px) {
+   .customers__container {
+      width: 320px;
+   }
+
+   #rectangle {
+      width: 288px;
+   }
+}

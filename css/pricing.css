@@ -224,3 +224,18 @@ nav {
       margin-top: 30px;
    }
 }
+
+@media (max-width: 320px) {
+   .page__pricing {
+      max-width: 320px;
+   }
+
+
+   .page__pricing-column {
+      margin-top: 20px;
+   }
+
+   .page__item {
+      width: 288px;
+   }
+}
