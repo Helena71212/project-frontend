@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+@import url(../css/header.css);
+@import url(../css/features.css);
+@import url(../css/works.css);
+@import url(../css/team.css);
+
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+hr,
+ul,
+li,
+fieldset,
+form,
+label,
+input,
+menu,
+nav {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+   vertical-align: baseline;
+}
+
+ul,
+li {
+   display: block;
+}

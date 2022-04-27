@@ -1,0 +1,44 @@
+.team__container {
+   width: 100%;
+   max-width: 1170px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.team__content {
+   display: flex;
+   margin-top: 114px;
+}
+
+.content__item {
+   max-width: 270px;
+   overflow: hidden;
+}
+
+.content__item:not(:last-child) {
+   margin-right: 30px;
+}
+
+.team__name {
+   margin-top: 30px;
+   font-size: 24px;
+   font-weight: 700;
+   text-transform: capitalize;
+   line-height: 116.67%;
+   color: #2D3033;
+}
+
+.team__descr {
+   margin-top: 5.29px;
+   font-size: 18px;
+   line-height: 116.67%;
+   color: #FF4343;
+   text-transform: uppercase;
+}
+
+.team__text {
+   margin: 17.86px 0 37.86px;
+   font-size: 18px;
+   line-height: 116.67%;
+   color: #6C7279;
+}

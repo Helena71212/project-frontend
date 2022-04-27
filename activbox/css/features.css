@@ -1,0 +1,35 @@
+.features__container {
+   max-width: 1170px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.features__content {
+   margin: 16px 0 117px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   text-align: center;
+   justify-content: space-between;
+}
+
+.features__content-item {
+   margin-top: 100px;
+   max-width: 370px;
+
+}
+
+.features__content-title {
+   height: 72px;
+   line-height: 72px;
+   margin: 29px 0 20.43px;
+   font-size: 24px;
+   font-weight: 900;
+   text-transform: uppercase;
+   color: #2D3033;
+}
+
+.features__content-text {
+   font-size: 18px;
+   color: #6C7279;
+}
