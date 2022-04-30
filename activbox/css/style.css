@@ -3,6 +3,9 @@
 @import url(../css/features.css);
 @import url(../css/works.css);
 @import url(../css/team.css);
+@import url(../css/testimonial.css);
+@import url(../css/download.css);
+@import url(../css/footer.css);
 
 body,
 div,
@@ -34,7 +37,16 @@ nav {
    vertical-align: baseline;
 }
 
+body {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+}
+
 ul,
 li {
    display: block;
 }
+
+
+@media (max-width: 768px) {}

@@ -1,0 +1,52 @@
+.testimonials__container {
+   max-width: 1510px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.testimonials__content {
+   margin-top: 114px;
+   display: flex
+}
+
+.testimonials__part {
+   max-width: 741px;
+}
+
+.testimonials {
+   width: 100%;
+   height: auto;
+}
+
+.testimonials__right-content {
+   min-width: 471px;
+   background: #5C3249;
+   margin: 130px 100px;
+}
+
+.testimonials__part-right {
+   width: 50%;
+   height: 490px;
+   background: #5C3249;
+
+}
+
+.testimonials__quote {
+   max-width: 471px;
+   font-family: 'Cardo';
+   font-size: 36px;
+   font-style: italic;
+   font-style: normal;
+   line-height: 136.11%;
+   color: #fff;
+   text-transform: capitalize;
+}
+
+.testimonials__name-quote {
+   padding-top: 20px;
+   font-size: 13px;
+   font-weight: 700;
+   color: #fff;
+   line-height: 115.38%;
+   text-transform: uppercase;
+}

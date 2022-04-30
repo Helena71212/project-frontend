@@ -388,8 +388,7 @@ span {
       opacity: 0;
    }
 
-   .toggler:checked~.header__menu>a {
-
+   .toggler {
       opacity: 1;
    }
 
@@ -462,8 +461,15 @@ span {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      /* transform: scale(0);*/
+      /*transform: scale(0);*/
       opacity: 0;
+   }
+
+   .toggler:checked~.header__menu {
+      max-height: 100px;
+      padding: 15px 0;
+      transition: all 0.5s;
+      opacity: 2;
    }
 
    .banner__content {

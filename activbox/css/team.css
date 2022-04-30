@@ -15,6 +15,11 @@
    overflow: hidden;
 }
 
+.content__img {
+   width: 100%;
+   height: auto;
+}
+
 .content__item:not(:last-child) {
    margin-right: 30px;
 }

@@ -6,6 +6,8 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;700;900&display=swap"
+      rel="stylesheet">
    <link rel="stylesheet" href="css/style.css">
    <title>ActiveBox</title>
 </head>
@@ -17,25 +19,23 @@
             <a href="#" class="header__logo">
                <img src="img/logomain.svg" alt="Activebox">
             </a>
-            <div class="header__burger">
-               <span></span>
-            </div>
+            <div class="menu__burger" onclick="toggleMenu()"></div>
             <nav class="header__menu">
                <ul class="header__list">
                   <li>
                      <a href="#features" class="header__link">features</a>
                   </li>
                   <li>
-                     <a href="#" class="header__link">works</a>
+                     <a href="#works" class="header__link">works</a>
                   </li>
                   <li>
-                     <a href="#" class="header__link">our team</a>
+                     <a href="#team" class="header__link">our team</a>
                   </li>
                   <li>
-                     <a href="#" class="header__link">testimonials</a>
+                     <a href="#testimonials" class="header__link">testimonials</a>
                   </li>
                   <li>
-                     <a href="#" class="header__link">download</a>
+                     <a href="#download" class="header__link">download</a>
                   </li>
                </ul>
             </nav>
@@ -45,7 +45,7 @@
             <p class="banner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus
                magna
                vel scelerisque nisl consectetur et.</p>
-            <a href="#" class="btn">Find Out More</a>
+            <button class="btn">Find Out More</button>
          </div>
       </div>
    </section>
@@ -97,7 +97,7 @@
          </div>
       </div>
    </section>
-   <section class="works">
+   <section class="works" id="works">
       <div class="works__container">
          <div class="works__cards">
             <img src="img/work1.png" alt="work">
@@ -111,11 +111,11 @@
          </div>
       </div>
    </section>
-   <section class="team">
+   <section class="team" id="team">
       <div class="team__container">
          <div class="team__content">
             <div class="content__item">
-               <img src="img/card1.png" alt="card">
+               <img class="content__img" src="img/card1.png" alt="card">
                <h4 class="team__name">Ruth woods</h4>
                <h5 class="team__descr">founder, ceo</h5>
                <h5 class="team__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
@@ -131,7 +131,7 @@
                </div>
             </div>
             <div class="content__item">
-               <img src="img/card2.png" alt="card">
+               <img class="content__img" src="img/card2.png" alt="card">
                <h4 class="team__name">Timothy Reed</h4>
                <h5 class="team__descr">co-founder, developer</h5>
                <h5 class="team__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
@@ -148,7 +148,7 @@
                </div>
             </div>
             <div class="content__item">
-               <img src="img/card3.png" alt="card">
+               <img class="content__img" src="img/card3.png" alt="card">
                <h4 class="team__name">Victoria Vladez</h4>
                <h5 class="team__descr">ui designer</h5>
                <h5 class="team__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
@@ -165,7 +165,7 @@
                </div>
             </div>
             <div class="content__item">
-               <img src="img/card4.png" alt="card">
+               <img class="content__img" src="img/card4.png" alt="card">
                <h4 class="team__name">Beverly Little</h4>
                <h5 class="team__descr">data scientist</h5>
                <h5 class="team__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
@@ -184,9 +184,75 @@
          </div>
       </div>
    </section>
-
-
-
+   <section class="testimonials" id="testimonials">
+      <div class="testimonials__container">
+         <div class="testimonials__content">
+            <div class="testimonials__part">
+               <img class="testimonials" src="img/bgtest.png" alt="testim">
+            </div>
+            <div class="testimonials__part-right">
+               <div class="testimonials__right-content">
+                  <h2 class="testimonials__quote">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                     Donec sed odio dui.
+                     Aenean eu
+                     leo
+                     quam...”</h2>
+                  <h6 class="testimonials__name-quote">Susan Sims, Interaction Designer at XYZ</h6>
+               </div>
+            </div>
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   </section>
+   <div class="download" id="download">
+      <div class="download__container">
+         <h3 class="download__title">Are You Ready to Start? Download Now For Free!</h3>
+         <h5 class="download___text">Fusce dapibus, tellus ac cursus commodo</h5>
+         <button class="download__btn">download here</button>
+      </div>
+   </div>
+   <footer class="footer">
+      <div class="footer__container">
+         <div class="footer__content">
+            <div class="footer__item">
+               <div class="footer__location">
+                  <h5 class="footer__title">Location</h5>
+                  <h5 class="location__adress">3481 Melrose Place
+                     Beverly Hills, CA 90210</h5>
+               </div>
+            </div>
+            <div class="footer__item">
+               <div class="footer__social">
+                  <h5 class="footer__title">Share with Love</h5>
+                  <div class="footer__icons">
+                     <a href="https://www.facebook.com">
+                        <img src="img/facebookicon.svg" alt="icons"> </a>
+                     <a href="https://www.twitter.com">
+                        <img src="img/twittericon.svg" alt="icons"> </a>
+                     <a href="https://www.linkedin.com">
+                        <img src="img/linkedinicon.svg" alt="icons"> </a>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__item">
+               <div class="footer__about">
+                  <h5 class="footer__title">About ActiveBox</h5>
+                  <h5 class="about__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+                     ullamcorper
+                     nulla non metus auctor fringilla.</h5>
+               </div>
+            </div>
+         </div>
+         <div class="footer__copyright">
+            <div class="copyright">
+               <h5 class="text">Copyright © 2015 ActiveBox. All Rights Reserved
+                  Made with<span> by Kamal Chaneman</span></h5>
+            </div>
+         </div>
+   </footer>
+   <script src="/js/script.js">
+   </script>
 </body>
 
 </html>

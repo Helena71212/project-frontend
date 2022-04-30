@@ -6,12 +6,16 @@
 
 .works__cards {
    display: grid;
+   gap: 0;
    grid-template-rows: 50% 50%;
    grid-template-columns: 25% 25% 25% 25%;
 
 }
 
 .works__cards img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
    border: 2px solid #fff;
    cursor: pointer;
 }
