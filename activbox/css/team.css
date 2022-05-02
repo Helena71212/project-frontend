@@ -46,3 +46,45 @@
    line-height: 116.67%;
    color: #6C7279;
 }
+
+.social__icons a {
+   text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+   .team__container {
+      max-width: 984px;
+   }
+
+   .team__content {
+      margin-top: 78px;
+   }
+
+   .content__item {
+      max-width: 227px;
+   }
+
+   .content__item:not(:last-child) {
+      margin-right: 25px;
+   }
+
+   .team__name {
+      margin-top: 25px;
+      font-size: 18px;
+   }
+
+   .team__descr {
+      margin-top: 4.6px;
+      font-size: 14px;
+   }
+
+   .team__text {
+      margin: 22.45px 0 39.2px;
+      font-size: 14px;
+   }
+
+   .team__social-icon {
+      height: 32px;
+      width: 32px;
+   }
+}

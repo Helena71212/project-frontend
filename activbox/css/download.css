@@ -46,3 +46,28 @@
 .download__btn:active {
    box-shadow: 4px 4px 30px #FF4343;
 }
+
+@media (max-width:1024px) {
+   .download__container {
+      max-width: 984px;
+   }
+
+   .download__title {
+      height: 60px;
+      margin-top: 77px;
+      font-size: 24px;
+   }
+
+   .download___text {
+      height: 16px;
+      margin-top: 4.71px;
+      font-size: 16px;
+   }
+
+   .download__btn {
+      width: 313px;
+      height: 77px;
+      margin-top: 46px;
+      font-size: 18px;
+   }
+}
