@@ -10,24 +10,31 @@
 }
 
 .testimonials__part {
-   max-width: 741px;
+   width: 50%;
+   height: 490px;
+   overflow: hidden;
 }
 
 .testimonials {
    width: 100%;
-   height: auto;
+   height: 100%;
+   object-fit: cover;
 }
 
 .testimonials__right-content {
-   min-width: 471px;
-   background: #5C3249;
-   margin: 130px 100px;
+   max-width: 471px;
+   height: 258px;
+   text-align: center;
+   margin: 116px auto 145px;
 }
 
 .testimonials__part-right {
+   align-items: center;
    width: 50%;
    height: 490px;
    background: #5C3249;
+   overflow: hidden;
+   text-align: center;
 
 }
 
