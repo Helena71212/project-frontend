@@ -90,3 +90,37 @@
    }
 
 }
+
+@media (max-width:768px) {
+   .testimonials__container {
+      padding: 0;
+   }
+
+   .testimonials__content {
+      margin-top: 34px;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .testimonials__part {
+      width: 100%;
+   }
+
+   .testimonials__right-content {
+      margin-top: 25px;
+      margin-bottom: 95px;
+   }
+
+   .testimonials__name-quote {
+      margin-top: 25px;
+   }
+
+   .testimonials__part-right {
+      width: 100%;
+
+   }
+
+   .testimonials__content {
+      margin-top: 0;
+   }
+}

@@ -71,3 +71,30 @@
       font-size: 18px;
    }
 }
+
+@media (max-width:768px) {
+   .download__container {
+      max-width: 768px;
+   }
+
+   .download__title {
+      margin-top: 34px;
+      padding: 0 10px;
+      line-height: 21px;
+      font-size: 18px;
+   }
+
+   .download___text {
+      height: 30px;
+      margin-top: 3px;
+      font-size: 13px;
+      line-height: 15.26px;
+   }
+
+   .download__btn {
+      width: 278px;
+      height: 77px;
+      margin-top: 13.42px;
+   }
+
+}

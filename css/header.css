@@ -87,8 +87,6 @@ img.logo {
    display: none;
 }
 
-
-
 nav {
    display: flex;
    flex-wrap: wrap;
@@ -98,6 +96,7 @@ nav {
    font-style: normal;
    font-weight: 600;
    line-height: 19px;
+
 }
 
 .nav__link {
@@ -465,7 +464,7 @@ span {
       opacity: 0;
    }
 
-   .toggler:checked~.header__menu {
+   .span:checked~.nav {
       max-height: 100px;
       padding: 15px 0;
       transition: all 0.5s;
