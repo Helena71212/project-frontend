@@ -236,23 +236,38 @@
    </section>
    <section class="testimonials" id="testimonials">
       <div class="testimonials__container">
-         <div class="testimonials__content">
-            <div class="testimonials__part">
-               <img class="testimonials__img" src="img/bgtest.png" alt="testim">
-            </div>
-            <div class="testimonials__part-right">
-               <div class="testimonials__right-content">
-                  <h2 class="testimonials__quote">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-                     Donec sed odio dui.
-                     Aenean eu
-                     leo
-                     quam...”</h2>
-                  <h6 class="testimonials__name-quote">Susan Sims, Interaction Designer at XYZ</h6>
+         <input type="radio" name="point" id="slide1" checked>
+         <input type="radio" name="point" id="slide2">
+         <input type="radio" name="point" id="slide3">
+         <input type="radio" name="point" id="slide4">
+         <input type="radio" name="point" id="slide5">
+         <div class="slider">
+            <div class="testimonials__content">
+               <div class="testimonials__part">
+                  <img class="testimonials__img" src="img/bgtest.png" alt="testim">
+               </div>
+               <div class="testimonials__part-right">
+                  <div class="testimonials__right-content">
+                     <h2 class="testimonials__quote">“Integer posuere erat a ante venenatis dapibus posuere velit
+                        aliquet.
+                        Donec sed odio dui.
+                        Aenean eu
+                        leo
+                        quam...”</h2>
+                     <h6 class="testimonials__name-quote">Susan Sims, Interaction Designer at XYZ</h6>
+                  </div>
                </div>
             </div>
          </div>
-         <div class="swiper-pagination"></div>
+         <div class="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+         </div>
       </div>
+
       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    </section>
    <div class="download" id="download">

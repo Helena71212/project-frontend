@@ -30,7 +30,7 @@
 .card__project-name {
    margin-top: 110px;
    padding: 0 70px;
-   max-width: 370px;
+   /*max-width: 370px;*/
    font-weight: 900;
    font-size: 24px;
    line-height: 28px;

@@ -247,7 +247,7 @@
    .side-menu:checked~nav {
       max-height: 100%;
       max-width: 100%;
-      margin-left: -20px;
+      margin-left: -15px;
    }
 
    .side-menu:checked~.hamb .hamb-line {
