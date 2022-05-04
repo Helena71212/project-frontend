@@ -127,8 +127,6 @@ span {
 }
 
 @media (max-width: 1024px) {
-
-
    .footer__content {
       height: 450px;
       flex-direction: column;
