@@ -168,7 +168,7 @@ h5 {
 
 textarea {
    width: 390px;
-   height: 214px;
+   height: 208px;
    border: none;
    border-bottom: 1px solid #BDBDBD;
    font-family: 'Open Sans', sans-serif;
@@ -281,16 +281,23 @@ textarea {
    }
 
    .contact__form {
-      flex-wrap: wrap;
+      width: 100%;
    }
 
    .form__item {
-      width: 468px;
       padding-bottom: 16px;
    }
 
+   .form__comment {
+      width: 49%;
+   }
+
    textarea {
-      width: 400px;
+      width: 100%;
+   }
+
+   .btn-send {
+      margin-top: 50px;
    }
 
    .footer__icons {
@@ -329,10 +336,6 @@ textarea {
 }
 
 @media (max-width: 525px) {
-   .form__item {
-      width: 300px;
-   }
-
    .form__comment {
       padding-left: 0;
    }
@@ -346,7 +349,7 @@ textarea {
    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
    .design__btn {
       max-width: 287px;
       height: 50px;
@@ -354,7 +357,7 @@ textarea {
    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
 
 
    .contact__form {
@@ -362,9 +365,6 @@ textarea {
       margin: 0 auto;
    }
 
-   .form__name {
-      width: 288px;
-   }
 
    .form__item {
       width: 288px;

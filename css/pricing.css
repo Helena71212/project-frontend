@@ -67,18 +67,19 @@ nav {
 }
 
 .page__row {
+   width: 100%;
    margin: 0px auto;
    display: flex;
-   flex-wrap: wrap;
    justify-content: space-between;
 }
 
 .page__pricing-column {
+   width: 31.62%;
    height: 510px;
 }
 
 .page__item {
-   width: 370px;
+
    display: block;
    text-align: center;
 }
@@ -170,8 +171,12 @@ nav {
       padding: 50px 16px;
    }
 
+   .page__pricing-column {
+      width: 32%;
+   }
+
    .page__item {
-      width: 317px;
+      max-width: 317px;
    }
 
    .page__pricing-title {
@@ -217,25 +222,19 @@ nav {
    }
 
    .page__row {
-      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
    }
 
    .page__pricing-column:nth-child(3) {
       margin-top: 30px;
    }
-}
-
-@media (max-width: 320px) {
-   .page__pricing {
-      max-width: 320px;
-   }
-
 
    .page__pricing-column {
-      margin-top: 20px;
+      width: 90%;
    }
 
-   .page__item {
-      width: 288px;
+   .page__pricing-column:nth-child(2) {
+      box-shadow: none;
    }
 }

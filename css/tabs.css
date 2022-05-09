@@ -116,6 +116,7 @@ nav {
    max-width: 270px;
    height: 58px;
    margin-bottom: 54px;
+   margin-left: 84px;
    background-color: #EC7979;
    border: 1px solid #EC7979;
 }
@@ -155,7 +156,7 @@ nav {
 
    .content__title {
       height: 32px;
-      padding: 27px 0 27px;
+      padding: 27px 0 27px 84px;
       margin-bottom: 68px;
       line-height: 32px;
       font-size: 24px;
@@ -164,7 +165,7 @@ nav {
 
    .content__text {
       max-width: 482px;
-      margin: 0 26px 38px 0;
+      margin: 0 26px 38px 84px;
       line-height: 16px;
       font-size: 14px;
    }
@@ -178,7 +179,7 @@ nav {
    }
 }
 
-@media (max-width: 525px) {
+@media (max-width: 768px) {
    .block__content-item {
       display: none;
    }
@@ -191,28 +192,21 @@ nav {
       margin-right: 25px;
       padding-left: 25px;
    }
-}
 
-@media (max-width: 320px) {
-   .block__content-item {
-      display: none;
+   .tabs__item {
+      width: 100%;
    }
 
-   .block__tabs-wrapper {
-      max-width: 320px;
-      padding: 0 16px;
+   .content__title {
+      padding: 20px 0 0;
    }
 
-   .button-active {
-      padding: 10px 50px;
-   }
-
-   .button {
-      margin-right: 25px;
-      padding-left: 30px;
+   .content__text {
+      padding: 0;
+      margin: 29px 0 30px 20px;
    }
 
    .block__content-buttom {
-      max-width: 240px;
+      margin-left: 0;
    }
 }
